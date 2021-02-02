@@ -68,6 +68,7 @@ h2{
 
 main{
   padding: 1em;
+
 }
 
 table{
@@ -171,18 +172,13 @@ footer{
 .copyright{
   text-align: center;
 }
-
+/*
 .hidden-on-lg{
   display: none;
 }
-
 .hidden-on-sm{
   display: block;
 }
-main{
-  background-color: green;
-}
-
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -200,19 +196,27 @@ main{
 */
 
 @media (max-width: 1024px) {
+
+}
   .logo{
     margin: 0 auto;
     width: 256px;
   }
 
   .row{
-    flex-direction: column;
+   display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+   
   }
   .sidy-by-side{
     flex-direction: column;
     align-items: center;
   }
-}
+ .cost-ticket {
+    box-shadow:10px 10px 5px grey;
+  }
+
 
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
