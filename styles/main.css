@@ -175,9 +175,14 @@ footer{
 .hidden-on-lg{
   display: none;
 }
+
 .hidden-on-sm{
   display: block;
 }
+main{
+  background-color: green;
+}
+
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
