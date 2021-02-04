@@ -204,16 +204,21 @@ footer{
   }
 
   .row{
-   display: flex;
+    display: flex;
   justify-content: space-between;
   margin: 1.5rem 0;
-   
+
   }
+  .row-bottom{ 
+    display: flex;
+    justify-content: space-between;
+  margin: 1.5rem 0;
+   }
   .sidy-by-side{
     flex-direction: column;
     align-items: center;
   }
- .cost-ticket {
+ .ticket-sale {
     box-shadow:10px 10px 5px grey;
   }
 
