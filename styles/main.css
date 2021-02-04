@@ -112,15 +112,22 @@ article h2{
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
+  text-shadow:0 0 0 #FCFCFC,-1px -1px 0 #FCFCFC,1px -1px 0 #FCFCFC,-1px 1px 0 #FCFCFC,1px 1px 0 #FCFCFC;
 }
 article h2.accessibility{
   background-image: url('../images/accessible-eunice-stahl.jpg');
+  text-shadow:0 0 0 #FCFCFC,-1px -1px 0 #FCFCFC,1px -1px 0 #FCFCFC,-1px 1px 0 #FCFCFC,1px 1px 0 #FCFCFC;
+
 }
 article h2.rides{
   background-image: url('../images/drone-drew-dau.jpg');
+  text-shadow:0 0 0 #FCFCFC,-1px -1px 0 #FCFCFC,1px -1px 0 #FCFCFC,-1px 1px 0 #FCFCFC,1px 1px 0 #FCFCFC;
+
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
+  text-shadow:0 0 0 #FCFCFC,-1px -1px 0 #FCFCFC,1px -1px 0 #FCFCFC,-1px 1px 0 #FCFCFC,1px 1px 0 #FCFCFC;
+
 }
 
 .product{
