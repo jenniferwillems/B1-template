@@ -180,12 +180,12 @@ footer{
 .copyright{
   text-align: center;
 }
-/*
+
 .hidden-on-lg{
-  display: none;
+  display: block;
 }
 .hidden-on-sm{
-  display: block;
+  display: none;
 }
 
 /* 
@@ -203,7 +203,7 @@ footer{
   ##Screen = B/w 768px to 1024px
 */
 
-@media (max-width: 1024px) {
+@media (max-width: 481px) {
 
 }
   .logo{
