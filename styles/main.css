@@ -185,7 +185,7 @@ footer{
   display: block;
 }
 .hidden-on-sm{
-  display: none;
+  display: block;
 }
 
 /* 
@@ -223,7 +223,7 @@ footer{
   margin: 1.5rem 0;
    }
   .sidy-by-side{
-    flex-direction: column;
+    display: flex;
     align-items: center;
   }
  .ticket-sale {
@@ -239,6 +239,9 @@ footer{
   box-shadow: 1px 0px 5px #27AE62;
   padding: 1rem;
 
+}
+span{
+  font-weight: bold;
 }
 
 /*
