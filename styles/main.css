@@ -9,6 +9,10 @@
     * Secundaire kleur: #2F80ED
 */
 
+
+
+
+/*index styling*/
 body, html{
   margin: 0;
   padding: 0;
@@ -29,24 +33,21 @@ header{
   background-position: center;
   background-color: #CCCCCC;
 }
+.logo{
+  margin: 0 auto;
+  width: 512px;
+}
 
 .header-content{
   padding: 1em;
-
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
-
   /* Deze animatie wordt onder aan dit bestand gedefinieerd/aangemaakt */
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 4s; /* Firefox < 16 */
   -ms-animation: fadein 4s; /* Internet Explorer */
   -o-animation: fadein 4s; /* Opera < 12.1 */
   animation: fadein 4s;
-}
-
-.logo{
-  margin: 0 auto;
-  width: 512px;
 }
 
 h1{
@@ -60,6 +61,50 @@ h1{
     -1px 1px 0 #FCFCFC,
     1px 1px 0 #FCFCFC;
 }
+.hidden-on-lg{
+  display: none;
+}
+
+article h2{
+  margin: 0;
+  padding: 1.5em;
+  border-left: none;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.row, .row-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  border-left: 5px solid #27AE60;
+  padding-left: 10px;
+  margin: 1em 1em 1em 0;}
+
+.cost-ticket{
+  border-left: solid;
+  border-width: 6px;
+  border-color: #27AE62;
+  box-shadow: 1px 0px 5px #27AE62;
+  padding: 1rem;
+  border-left: 5px solid #27AE60;
+  }
+.product{
+  margin-right: 1em;
+  padding: 1em;
+  background: #CCCCCC;
+  text-align: center;
+  }
+
+h2{
+    padding-left: 10px;
+  }
+
+main{
+    padding: 1em;
+  
+  }
 
 .payment-h2{
   border-left: 5px solid #27AE60;
@@ -67,14 +112,7 @@ h1{
   padding: 4px;
   margin-bottom: 26px;
 }
-h2{
-  padding-left: 10px;
-}
 
-main{
-  padding: 1em;
-
-}
 
 table{
   margin-top: 1em;
@@ -98,28 +136,6 @@ table tfoot{
   font-weight: bold;
 }
 
-.logo{
-  margin: 0 auto;
-  width: 256px;
-}
-article h2{
-  margin: 0;
-  padding: 1.5em;
-  border-left: none;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
-
-.row, .row-bottom{
-  display: flex;
-justify-content: space-between;
-margin: 1.5rem 0;
-border-left: 5px solid #27AE60;
-padding-left: 10px;
-margin: 1em 1em 1em 0;
-
-}
 
 .sidy-by-side{
   display: flex;
@@ -134,14 +150,6 @@ padding-left: 10px;
 margin: 1em 1em 1em 0;
 }
 
-.cost-ticket{
-border-left: solid;
-border-width: 6px;
-border-color: #27AE62;
-box-shadow: 1px 0px 5px #27AE62;
-padding: 1rem;
-border-left: 5px solid #27AE60;
-}
 
 span{
 font-weight: bold;
@@ -245,9 +253,7 @@ footer{
   text-align: center;
 }
 
-.hidden-on-lg{
-  display: none;
-}
+
 .product-text{
   border-left: 5px solid #27AE60;
 padding-left: 10px;
