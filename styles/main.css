@@ -200,6 +200,9 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .description{
@@ -217,10 +220,7 @@ footer{
 }
 
 .hidden-on-lg{
-  display: block;
-}
-.hidden-on-sm{
-  display: block;
+  display: none;
 }
 
 /* 
@@ -235,6 +235,13 @@ footer{
   .row, .row-bottom{
     flex-direction: column;
   }
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
+  
 }
 
 /* 
