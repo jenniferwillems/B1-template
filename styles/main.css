@@ -288,6 +288,10 @@ margin-left: 800px;
     display: flex;
     flex-direction: column;
   }
+  .foto-mok{
+    flex-direction: column;
+    align-items: center;
+  }
   
 }
 
